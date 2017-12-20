@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"outFile": "dist/app.js",
+		"module": "system",
+		"moduleResolution": "node",
+		"sourceMap": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"removeComments": false,
+		"noImplicitAny": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"noStrictGenericChecks": true,
+		"emitEmpty": true,
+		"typeRoots": [
+			"node_modules/@types/"
+		],
+		"lib": ["es2015", "dom"]
+	},
+
+	"files": [
+		"src/main.ts"
+	],
+
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
+}
